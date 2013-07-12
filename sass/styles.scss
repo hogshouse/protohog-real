@@ -1,0 +1,5 @@
+/* == EXTRA STYLING, JS HOOKS AND SUCH == */
+
+.mobCheck { position: absolute; height: none; background: transparent;
+	@media #{$golf} { position: relative; }
+ }

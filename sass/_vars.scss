@@ -1,0 +1,28 @@
+/* == FONTS == */
+
+
+@mixin mainFont { font-family: helvetica neue; color: black; }
+@mixin borderHog { border: thick red dashed; }
+
+
+
+/* == COLOURS == */
+$black: #272727;
+$yellow: #676767;
+$hog: #bada55;
+
+/* == BASELINE == */
+
+$dist: 1.3em;
+
+
+/* == MEDIA QUERIES == */
+
+$polo: 'only screen and (min-device-width: 100px) and (max-device-width: 400px)';
+$golf: 'only screen and (min-width: 400px) and (max-width: 780px)';
+$touareg: 'only screen and (min-width: 781px)';
+$campervan: 'only screen and (min-width: 1200px)';
+
+/* == HELPERS == */
+
+.stickyFooter { padding-top: $dist; position: absolute; width: 100%; bottom: 0; height: 75px;  /* This value is the height of your footer */ background-color: rgba(63,63,63,0.76); }
